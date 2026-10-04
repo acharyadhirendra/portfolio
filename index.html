@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Dhirendra Acharya | BBM Student and Founder, Kathmandu</title>
+  <meta name="description" content="Portfolio of Dhirendra Acharya, a BBM student and entrepreneur in Kathmandu working in finance, management, and green technology.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Instrument+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <a class="skip" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <a class="brand" href="#top">Dhirendra Acharya</a>
+    <button class="menu-btn" aria-expanded="false" aria-controls="nav">Menu</button>
+    <nav id="nav" class="nav" aria-label="Main">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main id="main">
+
+    <section class="hero" id="top">
+      <div class="hero-text">
+        <p class="hero-kicker">BBM student and founder in Kathmandu</p>
+        <h1>Dhirendra<br>Acharya</h1>
+        <p class="hero-lead">I study finance and management, and I build businesses that grow food and make energy from waste.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#projects">See my projects</a>
+          <a class="btn btn-ghost" href="#contact">Get in touch</a>
+        </div>
+      </div>
+      <figure class="portrait">
+        <img src="profile/picture.jpg" alt="Photo of Dhirendra Acharya" width="420" height="520">
+        <span class="portrait-fallback" aria-hidden="true">DA</span>
+      </figure>
+    </section>
+
+    <section class="section" id="about">
+      <h2>About me</h2>
+      <div class="prose">
+        <p>I am a BBM student interested in finance, management, and entrepreneurship. I like turning an idea into a working business, from the first customer to the first report.</p>
+        <p>I run two ventures in Nepal, one in rooftop farming and one in biogas. I am also learning website development and SEO, so the businesses I build can be found online.</p>
+      </div>
+    </section>
+
+    <section class="section" id="skills">
+      <h2>My skills</h2>
+      <div class="skill-groups">
+        <div class="skill-group">
+          <h3>Business</h3>
+          <ul>
+            <li>Finance</li>
+            <li>Management</li>
+            <li>Entrepreneurship</li>
+            <li>Feasibility reports</li>
+          </ul>
+        </div>
+        <div class="skill-group">
+          <h3>Web</h3>
+          <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>SEO</li>
+          </ul>
+        </div>
+        <div class="skill-group">
+          <h3>Education</h3>
+          <ul>
+            <li>Curriculum design</li>
+            <li>Teaching entrepreneurship</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="projects">
+      <h2>My projects</h2>
+      <ul class="projects">
+        <li class="project">
+          <h3>GreenRoofs Nepal</h3>
+          <p>Rooftop hydroponic farming using NFT systems. We install and maintain the systems, and buy back surplus produce from customers.</p>
+          <p class="project-tag">Urban farming</p>
+        </li>
+        <li class="project">
+          <h3>GreEnergy Nepal: GMCBS</h3>
+          <p>A modular commercial biogas system for businesses that produce organic waste. Currently in the feasibility and commercialization stage.</p>
+          <p class="project-tag">Renewable energy</p>
+        </li>
+        <li class="project">
+          <h3>Entrepreneurship and Innovation curriculum</h3>
+          <p>A secondary-school subject for Grades 7 to 10, with a syllabus and chapter content for each grade.</p>
+          <p class="project-tag">Education</p>
+        </li>
+      </ul>
+    </section>
+
+    <section class="section" id="contact">
+      <h2>Contact me</h2>
+      <div class="contact-grid">
+        <div class="prose">
+          <p>Email: <a href="mailto:your-email@example.com">your-email@example.com</a></p>
+          <p><a href="https://www.linkedin.com/" target="_blank" rel="noopener">Visit my LinkedIn</a></p>
+        </div>
+        <form id="contact-form" novalidate>
+          <label for="name">Name</label>
+          <input id="name" name="name" type="text" autocomplete="name" required>
+          <p class="error" data-for="name"></p>
+
+          <label for="email">Email</label>
+          <input id="email" name="email" type="email" autocomplete="email" required>
+          <p class="error" data-for="email"></p>
+
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5" required></textarea>
+          <p class="error" data-for="message"></p>
+
+          <button class="btn btn-primary" type="submit">Send message</button>
+          <p class="form-status" role="status"></p>
+        </form>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; <span id="year"></span> Dhirendra Acharya. Kathmandu, Nepal.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
