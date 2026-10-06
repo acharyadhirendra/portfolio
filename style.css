@@ -149,8 +149,10 @@ h3 {
 
 .hero-lead {
   font-size: 1.25rem;
-  max-width: 34ch;
+  max-width: 44ch;
   margin: 0 0 2rem;
+  text-align: justify;
+  hyphens: auto;
 }
 
 .hero-actions { display: flex; flex-wrap: wrap; gap: .75rem; }
